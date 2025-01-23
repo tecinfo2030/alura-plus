@@ -6,13 +6,32 @@
     --cor-extra-cinza:      #C0C0C0;
 }
 
-body {
-    background-color: var(--cor-primaria-bg);
-    color: var(--cor-terciaria-texto);
-}
-
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--cor-primaria-bg);
+    color: var(--cor-terciaria-texto);
+    
+    
+    
+    
+}
+
+/* .main {
+    
+} */
+
+.container {
+    height:100vh;
+}
+
+.main__titulo-imagem {
+    background-image: url(./Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
