@@ -1,3 +1,16 @@
+
+:root{
+    --cor-primaria-bg:         #00030C;
+    --cor-secundaria-botao:   #167BF7;
+    --cor-terciaria-texto:    #FFFFFF;
+    --cor-extra-cinza:      #C0C0C0;
+}
+
+body {
+    background-color: var(--cor-primaria-bg);
+    color: var(--cor-terciaria-texto);
+}
+
 * {
     margin:0;
     padding:0;
