@@ -44,6 +44,10 @@ body {
     font-weight: 700;
 }
 
+.main__promocao__imagem {
+    margin: 1rem 0 1rem 0;
+}
+
 .main__promocao__botao {
     background-color: var(--cor-secundaria-botao);
     color: var(--cor-terciaria-texto);
@@ -55,6 +59,7 @@ body {
     padding: 1rem;
     text-decoration: none;
     display: block;
+    margin: 1rem 0 1rem 0;
 }
 
 .botao__tranparente {
