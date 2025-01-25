@@ -19,10 +19,6 @@ body {
     font-weight: 400;
 }
 
-/* .main {
-    
-} */
-
 .container {
     height: 100vh;
     display: grid;
@@ -30,45 +26,45 @@ body {
     
 }
 
-.main__promocao {
+.promocao {
     /* display: flex;
     flex-direction: column; */
 
-    background-image: url(./Assets/Background.png);
+    background-image: url("./Assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 2rem;
+    margin: 2em;
     align-items: center;
     text-align: center;
     
+    grid-template-columns: 50% 50%;
 }
 
-.container__caixa {
-    /* margin: 6rem; */    /* Essa margem estava ultrapassando os limites da section main__promocao*/
-    
-}
+/* .container__caixa {
+     margin: 6em; 
+} */
 
-.main__promocao__titulo {
-    font-size: 1.75rem;
+.promocao__titulo {
+    font-size: 1.75em;
     font-weight: 700;
 }
 
 .main__promocao__imagem {
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 1em 0;
 }
 
-.main__promocao__botao {
+.promocao__botao {
     background-color: var(--cor-secundaria-botao);
     color: var(--cor-terciaria-texto);
     border-radius: 8px;
-    line-height: 1.5rem;
-    font-size: 1rem;
+    line-height: 1.5em;
+    font-size: 1em;
     text-align: center;
     /* width:40%; */
-    padding: 1rem;
+    padding: 1em;
     text-decoration: none;
     display: block;
-    margin: 1rem 0 1rem 0;
+    margin: 1em 0 1em 0;
 }
 
 .botao__tranparente {
@@ -77,12 +73,33 @@ body {
 
 }
 
-.main__promocao__aviso {
+.promocao__aviso {
     color: var(--cor-extra-cinza);
-    font-size: 0.75rem;
+    font-size: 0.75em;
     line-height: 14.5px;
     text-align: center;
     width: 380px;
     height: 15px;
+}
 
+
+
+.secundario {
+    align-items: center;
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-terciaria-texto);
+    margin-bottom: 0.1em;
+}
+
+.descricao__paragrafro {
+    color: var(--cor-extra-cinza);
 }
