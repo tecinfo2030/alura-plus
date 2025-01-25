@@ -39,6 +39,10 @@ body {
     margin: 2rem;
 }
 
+.container__caixa {
+    margin: 0 6rem;
+}
+
 .main__promocao__titulo {
     font-size: 1,75rem;
     font-weight: 700;
