@@ -53,7 +53,7 @@ body {
     margin: 1em 0 1em 0;
 }
 
-.promocao__botao {
+.promocao__botao  {
     background-color: var(--cor-secundaria-botao);
     color: var(--cor-terciaria-texto);
     border-radius: 8px;
@@ -65,6 +65,10 @@ body {
     text-decoration: none;
     display: block;
     margin: 1em 0 1em 0;
+}
+
+.promocao__botao:hover {
+    background-color: var(--cor-extra-cinza);
 }
 
 .botao__tranparente {
@@ -169,8 +173,17 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1em;
     font-weight: 400;
+    
 }
 
+.link {
+    color:var(--cor-terciaria-texto);
+    text-decoration: none;
+}
+
+.link:hover{
+    color:var(--cor-secundaria-botao);
+}
 
 .rodape_copyright {
     display: flex;
