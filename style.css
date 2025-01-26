@@ -124,7 +124,7 @@ body {
     font-weight: 700;
     color: var(--cor-terciaria-texto);
     text-align: center;
-    margin: 0 0 1em 0;
+    margin: 1em 0 1em 0;
 }
 
 .dispositivos__lista{
@@ -138,3 +138,56 @@ body {
     font-weight: 700;
     text-align: center;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 9em 0 5em 0;
+    width: 75rem;
+}
+
+.rodape_logo {
+    width: 10%;
+    margin: 1em;
+}
+
+.rodape__menu {
+    margin: 1.5em;
+}
+
+.rodape__menu__lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 75rem;
+}
+
+.rodape__menu__lista__item {
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+.rodape_copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    height: 6rem;
+}
+
+.rodape__copyright__texto__item {
+    font-size: 0.875em;
+    color: var(--cor-extra-cinza);
+    text-align: center;
+    list-style-type: none;
+    margin: 1.5em;
+}
+
+
